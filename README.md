@@ -1,0 +1,1 @@
+This repository demonstrates a common React Native bug related to the `useState` hook and object immutability.  The `bug.js` file shows how directly mutating an object in state leads to the UI not reflecting changes. The `bugSolution.js` file provides a corrected version using the spread syntax to create a new state object, ensuring proper updates.
